@@ -17,6 +17,10 @@
 		01AA9CEE29B445230051F49C /* CheckBoxUITableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA9CED29B445230051F49C /* CheckBoxUITableTests.swift */; };
 		01AA9CF829B445230051F49C /* CheckBoxUITableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA9CF729B445230051F49C /* CheckBoxUITableUITests.swift */; };
 		01AA9CFA29B445230051F49C /* CheckBoxUITableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA9CF929B445230051F49C /* CheckBoxUITableUITestsLaunchTests.swift */; };
+		01AA9D0729B44CF20051F49C /* Customers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA9D0629B44CF20051F49C /* Customers.swift */; };
+		01AA9D0B29B451430051F49C /* CustomerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA9D0A29B451430051F49C /* CustomerTableViewController.swift */; };
+		01AA9D0D29B451C60051F49C /* CustomerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA9D0C29B451C60051F49C /* CustomerTableViewCell.swift */; };
+		01AA9D0F29B452A10051F49C /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA9D0E29B452A10051F49C /* CheckBoxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		01AA9CF329B445230051F49C /* CheckBoxUITableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckBoxUITableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01AA9CF729B445230051F49C /* CheckBoxUITableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxUITableUITests.swift; sourceTree = "<group>"; };
 		01AA9CF929B445230051F49C /* CheckBoxUITableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxUITableUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		01AA9D0629B44CF20051F49C /* Customers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customers.swift; sourceTree = "<group>"; };
+		01AA9D0A29B451430051F49C /* CustomerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTableViewController.swift; sourceTree = "<group>"; };
+		01AA9D0C29B451C60051F49C /* CustomerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTableViewCell.swift; sourceTree = "<group>"; };
+		01AA9D0E29B452A10051F49C /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 				01AA9CE129B445230051F49C /* LaunchScreen.storyboard */,
 				01AA9CE429B445230051F49C /* Info.plist */,
 				01AA9CDC29B445210051F49C /* CheckBoxUITable.xcdatamodeld */,
+				01AA9D0629B44CF20051F49C /* Customers.swift */,
+				01AA9D0A29B451430051F49C /* CustomerTableViewController.swift */,
+				01AA9D0C29B451C60051F49C /* CustomerTableViewCell.swift */,
+				01AA9D0E29B452A10051F49C /* CheckBoxView.swift */,
 			);
 			path = CheckBoxUITable;
 			sourceTree = "<group>";
@@ -262,9 +274,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				01AA9CD829B445210051F49C /* ViewController.swift in Sources */,
+				01AA9D0D29B451C60051F49C /* CustomerTableViewCell.swift in Sources */,
 				01AA9CDE29B445210051F49C /* CheckBoxUITable.xcdatamodeld in Sources */,
 				01AA9CD429B445210051F49C /* AppDelegate.swift in Sources */,
+				01AA9D0729B44CF20051F49C /* Customers.swift in Sources */,
 				01AA9CD629B445210051F49C /* SceneDelegate.swift in Sources */,
+				01AA9D0B29B451430051F49C /* CustomerTableViewController.swift in Sources */,
+				01AA9D0F29B452A10051F49C /* CheckBoxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
